@@ -1,0 +1,17 @@
+{
+	"name": "yellostone-to-mpeg2-ts",
+	"version": "1.0.0",
+	"description": "A demo script to convert RTSP streams into MPEG2-TS files in pure js",
+	"license": "MIT",
+	"author": "Enrico",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"lint": "prettier --write ."
+	},
+	"dependencies": {
+		"commander": "^14.0.0",
+		"prettier": "^3.6.2",
+		"yellowstone": "github:mbullington/yellowstone"
+	}
+}
